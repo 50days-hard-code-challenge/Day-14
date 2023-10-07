@@ -6,7 +6,7 @@ public class Solution
         {
             return -1;
         }
-        if(root.left==null && root.right==null || root.left==null)
+        if(root.left==null)
         {
             return root.data;
         }
